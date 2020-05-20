@@ -1,0 +1,181 @@
+
+html { 
+    background: url(../images/BowieHangman_bkgrd.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+.container{
+    background: url(../images/transparentWhite.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 350px;
+    margin-top: 60px;
+    top: 160px;
+    padding: 60px;
+    padding-top: 20px;
+    border-radius: 8px;
+    width: 550px;
+  }
+
+  #titleHeader{
+    margin: -45px;
+    margin-left: -30px;
+  }
+
+  #viewport{
+    position: relative;
+    border-radius: 8px;
+    margin-left: -15px;
+    
+  }
+
+  .viewport{
+    margin: 0;
+    height: 600px;
+  }
+
+  #viewport2{
+    float: left;
+    margin: 80px;
+    position: absolute;
+    top: 315px;
+    left: 415px;
+  }
+
+  .innerOverlay{
+    position: relative;
+    width: 383px;
+    right: 40px;
+    bottom: 76px;
+    top: -396px;
+    left: 82px;
+  }
+
+  .wordBox{
+    
+    margin-top: 20px;
+    margin-left: -15px;
+    height: 30px;
+
+  }
+
+  #wordBox{
+    margin: -11px;
+    left: -20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+  }
+
+  
+
+
+  h2{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    padding: 20px;
+  }
+    
+  h3{
+    text-align: center;
+    color: black;
+    top: -1px;
+    position: relative;
+    float: right;
+      
+  }
+
+  h5{
+    text-align: center;
+    color: black;
+    font-display: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 45px;
+    padding: 20px;
+    
+
+  }
+
+  h6{
+    text-align: center;
+    color: black;
+    font-display: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    padding: 20px;
+    
+
+  }
+
+  #correctDisplay{
+    text-align: center;
+    padding: 20px;
+  }
+
+  #revealedAnswerDisplay{
+    text-align: center;
+    color: forestgreen;
+    font-size: 35px;
+    padding: 40px;
+    
+
+    
+  }
+
+
+  #currentWord{
+    text-align: center;
+    color: black;
+    font-display: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    padding: 20px;
+  }
+
+  #lettersGuessed{
+    text-align: center;
+    color: black;
+    font-display: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    padding: 20px;
+  }
+
+  #currentWordDisplay{
+    height: 50px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    padding: 20px;
+  }
+
+
+  .letters-guessed{
+    margin: 10px;
+    
+  }
+  #guessesMadeDisplay{
+    text-align: center;
+    text-align: center;
+    color: black;
+    font-display: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+    padding: 20px;
+
+  }
+
+  footer{
+    text-align: center;
+    color: azure;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    
+    
+  }
